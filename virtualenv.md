@@ -38,4 +38,4 @@ Running Python interactive console: ```python```</br>
 Uninstalling packages: ```pip uninstall packagename```
 
 ### Step 6: Deleting the virtualenv
-If you're sure you've done everything you want with this virtualenv and you won't use it anymore, it can be deleted by deleting the virtualenv folder. Interestingly enough, if you don't ```deactivate``` before deleting the folder, you can still run commands like ```python``` and ```pip install```. However, they will be referencing the _base_ python installation, so it is highly discouraged. Experimenting is always welcome, though :)
+If you're sure you've done everything you want with this virtualenv and you won't use it anymore, it can be deleted by deleting the virtualenv folder. Interestingly enough, if you don't ```deactivate``` before deleting the folder, you can still run commands like ```python``` and ```pip install```, with ```(env)``` still shown on the command line. However, they will be referencing the _base_ python installation, so it is highly discouraged. Humans, however, like to experiment, don't we all? :)
