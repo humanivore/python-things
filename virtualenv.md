@@ -22,7 +22,7 @@ Just run ```.\env\Scripts\Activate``` for Windows, or ```source env/bin/activate
 You should see ```(env)``` prefixed to your console command line. That means you're in!
 
 ### Step 3.5: Exiting the virtualenv
-To leave the virtualenv, simply run the ```deactivate``` command.
+To leave the virtualenv, simply run the ```deactivate``` command.</br>
 To re-enter the virtualenv, repeat Step 3.
 
 ### Step 4: Installing packages
@@ -33,8 +33,8 @@ For installing from a ```requirements.txt``` file, the command is ```pip install
 ### Step 5: Do your thing
 Now that your virtualenv should be properly set up, you can do whatever you need with it. Write code, run your new Python program, destroy it, or something.
 
-##### Other common operations
-Running Python interactive console: ```python```
+#### Other common operations
+Running Python interactive console: ```python```</br>
 Uninstalling packages: ```pip uninstall packagename```
 
 ### Step 6: Deleting the virtualenv
